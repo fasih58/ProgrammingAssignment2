@@ -1,8 +1,12 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## My first function makes a CacheMatrix i.e. A matrix for which we will check cached results
+## Second function checks if result already exists or if we have to compute it again
 
+
+## Write a short comment describing this function
+## This function is declaring all the required variables and functions in order to get our matrix 
 makeCacheMatrix <- function(x = matrix()) {
 	inverse <- NULL
         set <- function(y) {
